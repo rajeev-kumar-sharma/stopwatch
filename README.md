@@ -3,9 +3,11 @@ JavaScript stopwatch
 
 ## Installation
 
-via npm :
+##### In node:
 
-  npm install stopwatch.js
+```cmd
+npm install synaptic --save
+```
 
 ### Usage
 
