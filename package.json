@@ -1,0 +1,41 @@
+{
+  "name": "stopwatch.js",
+  "version": "1.0.0",
+  "description": "A Stopwatch for JavaScript.",
+  "main": "./dist/index.umd.js",
+  "module": "./dist/index.es5.js",
+  "esnext": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeev-kumar-sharma/stopwatch.git"
+  },
+  "keywords": [
+    "timeer",
+    "stopwatch",
+    "stopwatch.js",
+    "stopwatchjs"
+  ],
+  "author": "Rajeev Sharma",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/rajeev-kumar-sharma/stopwatch/issues"
+  },
+  "homepage": "https://github.com/rajeev-kumar-sharma/stopwatch#readme",
+  "devDependencies": {
+    "typescript": "^2.6.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@types/node": "^8.0.51"
+  }
+}
