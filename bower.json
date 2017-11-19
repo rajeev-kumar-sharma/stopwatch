@@ -18,8 +18,8 @@
   "homepage": "https://github.com/rajeev-kumar-sharma/stopwatch",
   "ignore": [
     "**/.*",
-    "**/.ts",
     "lib",
+    "index.ts",
     "tslint.json",
     "tsconfig.json",
     "node_modules",
