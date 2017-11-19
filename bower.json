@@ -26,6 +26,8 @@
     "bower_components",
     "package.json",
     "package-lock.json",
+    "dist/index.js",
+    "dist/index.t.js",
     "test",
     "tests"
   ]
