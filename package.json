@@ -1,10 +1,8 @@
 {
   "name": "stopwatch.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Stopwatch for JavaScript.",
-  "main": "./dist/index.umd.js",
-  "module": "./dist/index.es5.js",
-  "esnext": "./dist/index.js",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "directories": {
     "lib": "lib"
