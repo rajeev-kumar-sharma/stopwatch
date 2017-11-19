@@ -27,7 +27,7 @@
     "package.json",
     "package-lock.json",
     "dist/index.js",
-    "dist/index.t.js",
+    "dist/index.t.ts",
     "test",
     "tests"
   ]
