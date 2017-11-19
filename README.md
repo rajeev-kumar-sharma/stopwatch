@@ -58,6 +58,24 @@ const output = require('stopwatch.js').Output;
 const stopwatch = new stopwatchJs(output.Array);
 ```
 
+
+##### In browser:
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/stopwatch.js@1.1.0/dist/stopwatch.min.js"></script>
+```
+
+### Usage
+
+```javascript
+var output = stopwatchJs.Output;
+var stopwatch = new stopwatchJs.Stopwatch();
+
+stopwatch.start(function(time) {
+  // do something with time
+})
+```
+
 Author
 ------
 * Rajeev Sharma

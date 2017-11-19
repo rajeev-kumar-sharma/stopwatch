@@ -85,6 +85,9 @@ var Stopwatch = (function (_super) {
         this._emitter.removeAllListeners();
     };
     Stopwatch.prototype.lap = function () {
+        if (!this._running) {
+            throw new Error('You must start the timer first!');
+        }
         var elapsed = this._elapsed - this._laps.reduce(function (x, y) { return x + y; }, 0);
         this._laps.push(elapsed);
         return this.output(this.format(elapsed));

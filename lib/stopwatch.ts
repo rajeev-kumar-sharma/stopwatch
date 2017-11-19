@@ -76,6 +76,9 @@ export class Stopwatch extends EventEmitter {
    * @description Captures timer laps.
    */
   public lap (): string | string[] {
+    if (!this._running) {
+      throw new Error('You must start the timer first!');
+    }
     const elapsed = this._elapsed - this._laps.reduce((x, y) => x + y, 0);
     this._laps.push(elapsed);
 
