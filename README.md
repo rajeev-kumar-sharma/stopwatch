@@ -66,7 +66,7 @@ bower install stopwatch.js --save
 ```
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/stopwatch.js@1.1.0/dist/stopwatch.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/stopwatch.js@1.1.1/dist/stopwatch.min.js"></script>
 ```
 
 ### Usage
