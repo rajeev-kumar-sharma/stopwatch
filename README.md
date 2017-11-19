@@ -6,7 +6,7 @@ JavaScript stopwatch
 ##### In node:
 
 ```cmd
-npm install synaptic --save
+npm install stopwatch.js --save
 ```
 
 ### Usage
