@@ -19,8 +19,12 @@
   "ignore": [
     "**/.*",
     "lib",
+    "tslint.json",
+    "tsconfig.json",
     "node_modules",
     "bower_components",
+    "package.json",
+    "package-lock.json",
     "test",
     "tests"
   ]
