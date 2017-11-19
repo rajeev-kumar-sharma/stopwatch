@@ -1,0 +1,27 @@
+{
+  "name": "stopwatch.js",
+  "version": "1.1.1",
+  "description": "A Stopwatch for JavaScript.",
+  "main": "./dist/stopwatch.min.js",
+  "authors": [
+    "Rajeev Sharma"
+  ],
+  "license": "MIT License",
+  "keywords": [
+    "timer",
+    "timerjs",
+    "timer.js",
+    "stopwatch",
+    "stopwatch.js",
+    "stopwatchjs"
+  ],
+  "homepage": "https://github.com/rajeev-kumar-sharma/stopwatch",
+  "ignore": [
+    "**/.*",
+    "lib",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

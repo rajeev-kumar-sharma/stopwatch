@@ -46,7 +46,7 @@ stopwatch.lap(); // ['00', '00', '02', '95']
 ##### - javascript
 
 ```javascript
-const stopwatchJs = rewuire('stopwatch.js').Stopwatch;
+const stopwatchJs = require('stopwatch.js').Stopwatch;
 
 const stopwatch = new Stopwatch();
 ```
@@ -60,6 +60,10 @@ const stopwatch = new stopwatchJs(output.Array);
 
 
 ##### In browser:
+
+```cmd
+bower install stopwatch.js --save
+```
 
 ```html
 <script src="https://cdn.jsdelivr.net/npm/stopwatch.js@1.1.0/dist/stopwatch.min.js"></script>
