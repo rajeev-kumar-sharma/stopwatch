@@ -18,7 +18,9 @@
     "url": "git+https://github.com/rajeev-kumar-sharma/stopwatch.git"
   },
   "keywords": [
-    "timeer",
+    "timer",
+    "timerjs",
+    "timer.js",
     "stopwatch",
     "stopwatch.js",
     "stopwatchjs"
